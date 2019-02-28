@@ -9,6 +9,7 @@ function generateNumber() {
 
 function rollDice() {
   diceTriggerEl.addEventListener("click", function() {
+    const audio = new Audio('audio_file.wav'); audio.play();
     let randomNumber = generateNumber();
     diceImageEl.src = `images/dice${randomNumber}.png`;
   });
