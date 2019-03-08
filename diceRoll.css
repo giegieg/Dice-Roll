@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #61b189;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dice__title {
+  background-color: #eee;
+  color: rgb(56, 56, 56);
+  padding: 1.5rem;
+}
+
+.dice__trigger {
+  font-size: 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 4px;
+  margin: 2rem 0;
+  color: rgb(56, 56, 56);
+}
+
+.dice__trigger:hover {
+  opacity: 0.8;
+}
+
+.dice__result {
+  margin: 1.5rem 0;
+}
+
+.dice__image {
+  transition: transform .3s;
+}
+
+.animate {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+button:focus {
+  outline: none;
+}
